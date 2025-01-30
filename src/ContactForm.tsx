@@ -21,7 +21,7 @@ export default function ContactForm() {
       message: message
     };
     try {
-      await emailjs.send("service_hnt0iu9", "template_3bmfn42", templateParams);
+      await emailjs.send("service_gfyb22y", "template_rwypbwv", templateParams);
       setFormStatus("Sent!");
       setTimeout(() => setFormStatus(""), 5000);
     } catch (error) {

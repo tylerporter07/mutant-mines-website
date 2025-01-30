@@ -5,7 +5,7 @@ import "./index.css";
 import emailjs from "@emailjs/browser";
 
 emailjs.init({
-  publicKey: '7H_LGaw0hFK8OQVff',
+  publicKey: 'uzf-N9j8FuRfNw5L_',
   blockHeadless: true,
   limitRate: {
     id: 'app',

@@ -134,6 +134,10 @@
   margin: 0.25rem;
 }
 
+textarea {
+  font-family: inherit;
+}
+
 footer { 
   width: 100%;
   text-align: center;
