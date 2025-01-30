@@ -1,0 +1,136 @@
+:root {
+    background-color: darkslategray;
+    color: whitesmoke;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.background-image {
+    width: 100dvw;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.landing-page {
+    background-color: rgba(0, 0, 0, 0.85);
+    width: min(90%, 800px);
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.landing-page > img {
+    margin-top: 2rem;
+    margin-inline: auto;
+}
+
+.landing-page > h3 {
+    text-align: center;
+}
+
+.landing-page > section {
+    width: min(90%, 800px);
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-page > section > h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.landing-page > section > div > img {
+    width: 60%;
+    float: left;
+    margin-right: 1rem;
+}
+
+@media (max-width: 750px) {
+    .landing-page > section > div > img {
+        width: 100%;
+        float: none;
+        margin-inline: 0;
+    }
+}
+
+.landing-page > section > a {
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    color: black;
+    border: solid 1px black;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    width: fit-content;
+    margin-inline: auto;
+    margin-block: 1rem;
+    text-decoration: none;
+}
+
+.landing-page > section > a:hover {
+    background-color: lightgray;
+}
+
+.landing-page > section > a:active {
+    background-color: rgb(186, 186, 186);
+}
+
+.landing-page > section > form {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px whitesmoke;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.landing-page > section > form > h1 {
+    text-align: center;
+    margin: 0.25rem;
+}
+
+.landing-page > section > form > label {
+    width: 82.5%;
+    margin: 0.25rem;
+    padding: 0.25rem;
+    margin-inline: auto;
+}
+
+.landing-page > section > form > input {
+    width: 80%;
+    padding: 0.25rem;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+}
+
+.landing-page > section > form > textarea {
+    width: 80%;
+    padding: 0.25rem;
+    margin-inline: auto;
+}
+
+.landing-page > section > form > button {
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    color: black;
+    border: solid 1px black;
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    width: fit-content;
+    margin-inline: auto;
+    margin-block: 1rem;
+}
+
+.landing-page > section > form > p {
+    text-align: center;
+    margin: 0.25rem;
+}
